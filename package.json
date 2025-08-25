@@ -1,0 +1,41 @@
+{
+  "name": "agendor-disparo",
+  "version": "1.0.0",
+  "description": "Sistema de monitoramento e disparo automático de mensagens WhatsApp para novos leads do Agendor CRM",
+  "main": "person-monitor.js",
+  "scripts": {
+    "start": "node person-monitor.js",
+    "monitor": "node person-monitor.js",
+    "test:system": "node test-system.js",
+    "test:message": "node test-message.js",
+    "force:send": "node force-send.js",
+    "debug": "node debug-monitor.js",
+    "update-data": "node update-data.js"
+  },
+  "keywords": [
+    "agendor",
+    "crm",
+    "whatsapp",
+    "automation",
+    "leads",
+    "monitoring",
+    "telezapy",
+    "api"
+  ],
+  "author": "Felipe",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seu-usuario/agendorDisparo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seu-usuario/agendorDisparo/issues"
+  },
+  "homepage": "https://github.com/seu-usuario/agendorDisparo#readme"
+}
